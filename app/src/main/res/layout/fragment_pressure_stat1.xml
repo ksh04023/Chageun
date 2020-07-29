@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SugarStat2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.bibitnomic.linechart.MainActivity">
+        <Spinner
+            android:layout_gravity="right"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/dateSpinner2"
+            android:backgroundTint="@android:color/black"
+            android:gravity="right"
+            android:scrollbarStyle="outsideOverlay"
+            android:layout_margin="2dp"
+            android:padding="3dp"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/linechart3"
+            android:layout_width="match_parent"
+            android:paddingRight="5dp"
+            android:layout_height="500dp" android:padding="3dp"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FoodAddCamera">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/ckck"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/cameraimage"/>
+    <ScrollView
+        android:background="@drawable/radius"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="350dp"
+        android:fillViewport="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/cameraresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/addcamera"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="추가하기"
+        android:background="@drawable/radius"
+        android:backgroundTint="#FDD866" />
+</LinearLayout>
+</ScrollView>

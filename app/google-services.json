@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "638636281690",
+    "firebase_url": "https://chageun.firebaseio.com",
+    "project_id": "chageun",
+    "storage_bucket": "chageun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638636281690:android:f69fb0e9dd5c7924",
+        "android_client_info": {
+          "package_name": "com.example.chageuntest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638636281690-6263ed95rdte0s5lta84349qlkk8chgm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chageuntest",
+            "certificate_hash": "53942572615bb9a7389134b7b221e193e0907ef4"
+          }
+        },
+        {
+          "client_id": "638636281690-6ovmuq1stinooimrq1ipabd8ppne37qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpoR9qIDQ8FdvvA5D5usedt8VcNQWTeqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638636281690-6ovmuq1stinooimrq1ipabd8ppne37qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638636281690:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638636281690-6ovmuq1stinooimrq1ipabd8ppne37qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpoR9qIDQ8FdvvA5D5usedt8VcNQWTeqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638636281690-6ovmuq1stinooimrq1ipabd8ppne37qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638636281690:android:8c41e7b32516cd86",
+        "android_client_info": {
+          "package_name": "com.example.mychagun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638636281690-6ovmuq1stinooimrq1ipabd8ppne37qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpoR9qIDQ8FdvvA5D5usedt8VcNQWTeqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638636281690-6ovmuq1stinooimrq1ipabd8ppne37qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".FoodAddDirect">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ckck" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/radius">
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="식품 이름"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_fname" android:textSize="15sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/textColor"
+            android:ems="10"
+            android:id="@+id/e_fname"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="1회 제공량"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_fsupply"
+            android:textSize="15sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/textColor"
+            android:ems="10"
+            android:id="@+id/e_fsupply" />
+        <TextView
+            android:text="( g )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="열량"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_fkcal"
+            android:textSize="15sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/textColor"
+            android:ems="10"
+            android:id="@+id/e_fkcal"/>
+        <TextView
+            android:text="( kcal )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="탄수화물"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_fcarb" android:textSize="15sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/e_fcarb"/>
+        <TextView
+            android:text="( g )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="당류"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_fsugar" android:textSize="15sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/e_fsugar" />
+        <TextView
+            android:text="( g )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="단백질"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_fprotein" android:textSize="15sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/e_fprotein" />
+        <TextView
+            android:text="( g )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="지방"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_ffat" android:textSize="15sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/e_ffat"/>
+        <TextView
+            android:text="( g )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="포화지방산"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_fstfat"
+            android:textSize="15sp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/e_fstfat"
+            android:textColor="@color/textColor"/>
+        <TextView
+            android:text="( g )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="트랜스지방산"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:id="@+id/t_ftransfat"
+            android:textSize="15sp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/e_ftransfat"
+            android:textColor="@color/textColor"/>
+        <TextView
+            android:text="( g )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="콜레스테롤"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_fColl" android:textSize="15sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/e_fColl"
+            android:textColor="@color/textColor"/>
+        <TextView
+            android:text="( mg )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="나트륨"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_fNa" android:textSize="15sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:textColor="@color/textColor"
+            android:id="@+id/e_fNa" />
+        <TextView
+            android:text="( mg )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+    </LinearLayout>
+        <Button
+            android:layout_gravity="center"
+            android:background="@drawable/radius"
+            android:textStyle="bold"
+            android:backgroundTint="#FDD866"
+            android:text="추가하기"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content" android:id="@+id/addbutton"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
